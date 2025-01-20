@@ -1,0 +1,417 @@
+{
+  "scan": "ச்கேன்",
+  "@scan": {},
+  "openBattery": "பேட்டரி அமைப்புகளைத் திறக்கவும்",
+  "@openBattery": {},
+  "disableBattery": "அறிவிப்பு சிக்கல்களைத் தீர்க்க MUCKE க்கான தேர்வுமுறை முடக்கு.",
+  "@disableBattery": {},
+  "home": "வீடு",
+  "@home": {},
+  "customizeHomePage": "முகப்பு பக்கத்தைத் தனிப்பயனாக்குங்கள்",
+  "@customizeHomePage": {},
+  "settings": "அமைப்புகள்",
+  "@settings": {},
+  "noSongsYet": "உங்கள் நூலகத்தில் உங்களிடம் எந்த பாடல்களும் இல்லை என்று தெரிகிறது: அமைப்புகளுக்குச் சென்று, உங்கள் இசை கோப்புறைகளைச் சேர்த்து, உங்கள் நூலகத்தைப் புதுப்பிக்கவும்.",
+  "@noSongsYet": {},
+  "library": "நூலகம்",
+  "@library": {},
+  "search": "தேடல்",
+  "@search": {},
+  "updateLibrary": "நூலகத்தைப் புதுப்பிக்கவும்",
+  "@updateLibrary": {},
+  "artistsAlbumsSongs": "{artistCount} கலைஞர்கள், {albumCount} ஆல்பங்கள், {songCount} பாடல்கள்",
+  "@artistsAlbumsSongs": {
+    "placeholders": {
+      "artistCount": {
+        "type": "int",
+        "example": "3"
+      },
+      "albumCount": {
+        "type": "int",
+        "example": "6"
+      },
+      "songCount": {
+        "type": "int",
+        "example": "60"
+      }
+    }
+  },
+  "manageLibraryFolders": "நூலக கோப்புறைகளை நிர்வகிக்கவும்",
+  "@manageLibraryFolders": {},
+  "allowedFileExtensions": "அனுமதிக்கப்பட்ட கோப்பு நீட்டிப்புகள்",
+  "@allowedFileExtensions": {},
+  "allowedFileExtensionsDescription": "அனுமதிக்கப்பட்ட கோப்பு நீட்டிப்புகளின் கமாவால் பிரிக்கப்பட்ட பட்டியல். கீழ்- அல்லது பெரிய எழுத்துக்கள் ஒரு பொருட்டல்ல. இதைப் பற்றி உங்களுக்குத் தெரியாவிட்டால், இயல்புநிலையைப் பயன்படுத்தவும்.",
+  "@allowedFileExtensionsDescription": {},
+  "manageBlockedFiles": "தடுக்கப்பட்ட கோப்புகளை நிர்வகிக்கவும்",
+  "@manageBlockedFiles": {},
+  "numberOfBlockedFiles": "தற்போது தடுக்கப்பட்ட கோப்புகளின் எண்ணிக்கை: {blockedFiles}",
+  "@numberOfBlockedFiles": {
+    "placeholders": {
+      "blockedFiles": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "playback": "பின்னணி",
+  "@playback": {},
+  "playAlbumsInOrder": "வரிசையில் ஆல்பங்களை இயக்கவும்",
+  "@playAlbumsInOrder": {},
+  "playAlbumsInOrderDescription": "ஒரு ஆல்பத்தில் ஒரு பாடலைக் சொடுக்கு செய்யும் போது, முந்தைய நாடக பயன்முறையை வைத்திருப்பதற்கு பதிலாக பாடல்கள் ஒழுங்காக இயக்கப்படும்.",
+  "@playAlbumsInOrderDescription": {},
+  "countSongsPlayed": "பின்னர் பாடல்களை எண்ணுங்கள்: {percentage}%",
+  "@countSongsPlayed": {
+    "placeholders": {
+      "percentage": {
+        "type": "int"
+      }
+    }
+  },
+  "libraryFolders": "நூலக கோப்புறைகள்",
+  "@libraryFolders": {},
+  "blockedFiles": "தடுக்கப்பட்ட கோப்புகள்",
+  "@blockedFiles": {},
+  "homeCustomization": "முகப்பு தனிப்பயனாக்கம்",
+  "@homeCustomization": {},
+  "albumOfTheDay": "அன்றைய ஆல்பம்",
+  "@albumOfTheDay": {},
+  "artistOfTheDay": "அன்றைய கலைஞர்",
+  "@artistOfTheDay": {},
+  "shuffleAll": "அனைத்தையும் மாற்றவும்",
+  "@shuffleAll": {},
+  "history": "வரலாறு",
+  "@history": {},
+  "addWidgetToHome": "உங்கள் முகப்பு பக்கத்தில் ஒரு விட்செட்டைச் சேர்க்கவும்",
+  "@addWidgetToHome": {},
+  "noPlaylistsYet": "பிளேலிச்ட்கள் இதுவரை இல்லை. நீங்கள் அவற்றை நூலகத்தில் சேர்க்கலாம்.",
+  "@noPlaylistsYet": {},
+  "lastPlayed": "கடைசியாக விளையாடியது",
+  "@lastPlayed": {},
+  "noHistoryYet": "இதுவரை இங்கு பார்க்க எதுவும் இல்லை. ஏதாவது விளையாடுங்கள்.",
+  "@noHistoryYet": {},
+  "allSongs": "அனைத்து பாடல்களும்",
+  "@allSongs": {},
+  "song": "பாடல்",
+  "@song": {},
+  "songs": "பாடல்கள்",
+  "@songs": {},
+  "nSongs": "{எண்ணிக்கை, பன்மை, = 0 {no songs} = 1 {one song} மற்ற {{count} பாடல்கள்}}",
+  "@nSongs": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "album": "ஆல்பம்",
+  "@album": {},
+  "albums": "ஆல்பம்",
+  "@albums": {},
+  "artist": "கலைஞர்",
+  "@artist": {},
+  "artists": "கலைஞர்கள்",
+  "@artists": {},
+  "playlist": "பிளேலிச்ட்",
+  "@playlist": {},
+  "playlists": "பிளேலிச்ட்கள்",
+  "@playlists": {},
+  "smartlist": "அறிவுள்ள பட்டியல்",
+  "@smartlist": {},
+  "smartlists": "அறிவுள்ள பட்டியல்கள்",
+  "@smartlists": {},
+  "noShuffle": "எதுவுமில்லை (தற்போதைய கலக்கு பயன்முறையை வைத்திருங்கள்)",
+  "@noShuffle": {},
+  "normalMode": "சாதாரண பயன்முறை",
+  "@normalMode": {},
+  "shuffleMode": "கலக்கு பயன்முறை",
+  "@shuffleMode": {},
+  "favShuffleMode": "பிடித்த கலக்கு முறை",
+  "@favShuffleMode": {},
+  "name": "பெயர்",
+  "@name": {},
+  "sortingFilterSettings": "அமைப்புகளை வரிசைப்படுத்துதல் மற்றும் வடிகட்டி",
+  "@sortingFilterSettings": {},
+  "maxNumberEntries": "உள்ளீடுகளின் அதிகபட்ச எண்ணிக்கை",
+  "@maxNumberEntries": {},
+  "creationDate": "உருவாக்கும் தேதி",
+  "@creationDate": {},
+  "changeDate": "தேதியை மாற்றவும்",
+  "@changeDate": {},
+  "lastTimePlayed": "கடைசியாக விளையாடியது",
+  "@lastTimePlayed": {},
+  "ascending": "ஏறுதல்",
+  "@ascending": {},
+  "descending": "இறங்கு",
+  "@descending": {},
+  "both": "இரண்டும்",
+  "@both": {},
+  "playlistsOnly": "பிளேலிச்ட்கள் மட்டுமே",
+  "@playlistsOnly": {},
+  "smartlistsOnly": "அறிவுள்ள பட்டியல்கள் மட்டுமே",
+  "@smartlistsOnly": {},
+  "displaySettings": "அமைப்புகளைக் காண்பி",
+  "@displaySettings": {},
+  "addSmartlist": "ச்மார்ட்லிச்ட்டைச் சேர்க்கவும்",
+  "@addSmartlist": {},
+  "addPlaylist": "பிளேலிச்ட்டைச் சேர்க்கவும்",
+  "@addPlaylist": {},
+  "createPlaylist": "பிளேலிச்ட்டை உருவாக்கவும்",
+  "@createPlaylist": {},
+  "editPlaylist": "பிளேலிச்ட்டைத் திருத்து",
+  "@editPlaylist": {},
+  "customizeCover": "கவர் தனிப்பயனாக்கு",
+  "@customizeCover": {},
+  "playbackMode": "பிளேபேக் பயன்முறை",
+  "@playbackMode": {},
+  "excludeAllSongs": "விலக்குவதற்கு குறிக்கப்பட்ட அனைத்து பாடல்களையும் விலக்கு.",
+  "@excludeAllSongs": {},
+  "excludeInShuffle": "சஃபிள் பயன்முறையில் விலக்குவதற்கு குறிக்கப்பட்ட பாடல்களை விலக்கு.",
+  "@excludeInShuffle": {},
+  "excludeAlways": "எப்போதும் விலக்கு என குறிக்கப்பட்ட பாடல்களை மட்டுமே விலக்குங்கள்.",
+  "@excludeAlways": {},
+  "dontExclude": "எந்த பாடல்களையும் விலக்க வேண்டாம்.",
+  "@dontExclude": {},
+  "filterSettings": "அமைப்புகளை வடிகட்டவும்",
+  "@filterSettings": {},
+  "filterLikes": "{min} மற்றும் {max} க்கு இடையில் விருப்பங்கள்",
+  "@filterLikes": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "minPlayCount": "குறைந்தபட்ச விளையாட்டு எண்ணிக்கை",
+  "@minPlayCount": {},
+  "maxPlayCount": "அதிகபட்ச விளையாட்டு எண்ணிக்கை",
+  "@maxPlayCount": {},
+  "minYear": "குறைந்தபட்ச ஆண்டு",
+  "@minYear": {},
+  "maxYear": "அதிகபட்ச ஆண்டு",
+  "@maxYear": {},
+  "selectArtistsExclude": "விலக்க கலைஞர்களைத் தேர்ந்தெடுக்கவும்: {num} தேர்ந்தெடுக்கப்பட்டது.",
+  "@selectArtistsExclude": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "selectArtistsInclude": "சேர்க்க கலைஞர்களைத் தேர்ந்தெடுக்கவும்: {num} தேர்ந்தெடுக்கப்பட்டது.",
+  "@selectArtistsInclude": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "includeAllArtists": "எதுவும் தேர்ந்தெடுக்கப்படாவிட்டால் அனைத்து கலைஞர்களையும் சேர்க்கவும்.",
+  "@includeAllArtists": {},
+  "excludeArtists": "தேர்ந்தெடுக்கப்பட்ட கலைஞர்களை விலக்கு",
+  "@excludeArtists": {},
+  "limitSongs": "பாடல்களின் எண்ணிக்கையை கட்டுப்படுத்துங்கள்",
+  "@limitSongs": {},
+  "orderSettings": "அமைப்புகளை ஆர்டர் செய்யுங்கள்",
+  "@orderSettings": {},
+  "orderSettingsDescription": "முன்னுரிமைகளை மாற்ற விருப்பங்களை மறுவரிசைப்படுத்தவும்.",
+  "@orderSettingsDescription": {},
+  "createSmartlist": "ச்மார்ட்லிச்ட்டை உருவாக்கவும்",
+  "@createSmartlist": {},
+  "editSmartlist": "ச்மார்ட்லிச்ட்டைத் திருத்து",
+  "@editSmartlist": {},
+  "play": "விளையாடுங்கள்",
+  "@play": {},
+  "nSongsSelected": "{எண்ணிக்கை, பன்மை, = 0 {no songs selected} = 1 {one song selected} பிற {{count} தேர்ந்தெடுக்கப்பட்ட பாடல்கள்}}",
+  "@nSongsSelected": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "playNext": "அடுத்து விளையாடுங்கள்",
+  "@playNext": {},
+  "appendToQueued": "கைமுறையாக வரிசைப்படுத்தப்பட்ட பாடல்களைச் சேர்க்கவும்",
+  "@appendToQueued": {},
+  "addToQueue": "வரிசையில் சேர்க்கவும்",
+  "@addToQueue": {},
+  "disc": "வட்டு",
+  "@disc": {},
+  "blockFromLibrary": "நூலகத்திலிருந்து அகற்றி தடுக்கவும்",
+  "@blockFromLibrary": {},
+  "highlights": "சிறப்பம்சங்கள்",
+  "@highlights": {},
+  "shuffle": "கலக்கு",
+  "@shuffle": {},
+  "selectArtists": "கலைஞர்களைத் தேர்ந்தெடுக்கவும்",
+  "@selectArtists": {},
+  "removeFromQueue": "வரிசையிலிருந்து அகற்று",
+  "@removeFromQueue": {},
+  "currentlyPlaying": "தற்போது விளையாடுகிறது",
+  "@currentlyPlaying": {},
+  "nSongsInQueue": "{எண்ணிக்கை, பன்மை, = 0 {no songs} = 1 {one song} மற்ற {{count} பாடல்கள்}}",
+  "@nSongsInQueue": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "moreAvailable": "{num} மேலும் கிடைக்கிறது",
+  "@moreAvailable": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "nameMustNotBeEmpty": "பெயர் காலியாக இருக்கக்கூடாது.",
+  "@nameMustNotBeEmpty": {},
+  "artistName": "கலைஞரின் பெயர்",
+  "@artistName": {},
+  "likeCount": "எண்ணிக்கை போன்றது",
+  "@likeCount": {},
+  "playCount": "விளையாட்டு எண்ணிக்கை",
+  "@playCount": {},
+  "songTitle": "பாடல் தலைப்பு",
+  "@songTitle": {},
+  "year": "ஆண்டு",
+  "@year": {},
+  "timeAdded": "நேரம் சேர்க்கப்பட்டது",
+  "@timeAdded": {},
+  "addToPlaylist": "பிளேலிச்ட்டில் சேர்க்கவும்",
+  "@addToPlaylist": {},
+  "removeFromPlaylist": "பிளேலிச்ட்டிலிருந்து அகற்று",
+  "@removeFromPlaylist": {},
+  "cancel": "ரத்துசெய்",
+  "@cancel": {},
+  "nextUp": "அடுத்து",
+  "@nextUp": {},
+  "previousSong": "முந்தைய",
+  "@previousSong": {},
+  "playedNTimes": "{எண்ணிக்கை, பன்மை, = 0 {not played yet} = 1 {played once} மற்ற {விளையாடியது {count} முறை}}",
+  "@playedNTimes": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "alwaysPlayPrevious": "முன்பு முந்தைய பாடலை எப்போதும் வாசிக்கவும்",
+  "@alwaysPlayPrevious": {},
+  "alwaysPlayNext": "எப்போதும் அடுத்த பாடலை வாசிக்கவும்",
+  "@alwaysPlayNext": {},
+  "dontExcludeSong": "இந்த பாடலை விலக்க வேண்டாம்.",
+  "@dontExcludeSong": {},
+  "excludeShuffleAllSong": "எல்லா பாடல்களையும் மாற்றும்போது விலக்கு.",
+  "@excludeShuffleAllSong": {},
+  "excludeShuffleSong": "கலக்கும்போது விலக்கு.",
+  "@excludeShuffleSong": {},
+  "alwaysExcludeSong": "இந்த பாடலை எப்போதும் விலக்குங்கள்.",
+  "@alwaysExcludeSong": {},
+  "welcomeToMucke": "மக்கிக்கு வருக!",
+  "@welcomeToMucke": {},
+  "setupLibrary": "நூலகத்தை அமைக்கவும்",
+  "@setupLibrary": {},
+  "setupLibraryDescription": "கோப்புறைகளைத் தேர்ந்தெடுக்கவும், சேர்க்கப்பட்ட கோப்பு நீட்டிப்புகள் போன்றவை.",
+  "@setupLibraryDescription": {},
+  "importData": "தரவை இறக்குமதி செய்யுங்கள்",
+  "@importData": {},
+  "importDataDescription": "முந்தைய மக் நிறுவலில் இருந்து உங்கள் தரவை இறக்குமதி செய்யுங்கள்.",
+  "@importDataDescription": {},
+  "yourLibrary": "உங்கள் நூலகம்:",
+  "@yourLibrary": {},
+  "noFoldersSelected": "இதுவரை எந்த கோப்புறைகளும் தேர்ந்தெடுக்கப்படவில்லை.",
+  "@noFoldersSelected": {},
+  "addFolder": "கோப்புறையைச் சேர்",
+  "@addFolder": {},
+  "availableFromImport": "இறக்குமதி செய்யப்பட்ட தரவுகளிலிருந்து கிடைக்கிறது:",
+  "@availableFromImport": {},
+  "use": "பயன்படுத்தவும்",
+  "@use": {},
+  "reset": "மீட்டமை",
+  "@reset": {},
+  "blockedFilesDescription": "இறக்குமதி செய்யப்பட்ட தரவுகளிலிருந்து தடுக்கப்பட்ட கோப்புகள். சரியான போட்டிகள் மட்டுமே நூலக ச்கேன் மூலம் விலக்கப்படும். கூடுதல் கோப்புகளை பின்னர் பயன்பாட்டில் தடுக்கலாம்.",
+  "@blockedFilesDescription": {},
+  "importLibData": "நூலகத் தரவை இறக்குமதி செய்யுங்கள்",
+  "@importLibData": {},
+  "songMetaData": "பாடல் மேனிலை தரவு",
+  "@songMetaData": {},
+  "metaDataAvailable": "{num} பாடல்களுக்கான மேனிலை தரவு",
+  "@metaDataAvailable": {
+    "placeholders": {
+      "num": {
+        "type": "int"
+      }
+    }
+  },
+  "metaDataDescription": "இறக்குமதி விருப்பங்கள், தொகுதிகள் போன்றவை.",
+  "@metaDataDescription": {},
+  "imported": "இறக்குமதி செய்யப்பட்டது",
+  "@imported": {},
+  "importVerb": "இறக்குமதி",
+  "@importVerb": {
+    "description": "This means the verb of importing something - not the noun."
+  },
+  "miscellaneous": "மற்றவை",
+  "@miscellaneous": {},
+  "exportData": "தரவு ஏற்றுமதி",
+  "@exportData": {},
+  "exportDescription": "நீங்கள் ஏற்றுமதி செய்ய விரும்பும் தரவைத் தேர்ந்தெடுக்கவும். இயல்பாக, எல்லாம் ஏற்றுமதி செய்யப்படுகிறது. ஏற்றுமதி செய்யும் போது, கோப்பை சேமிக்க ஒரு கோப்புறையைத் தேர்ந்தெடுக்கலாம்.",
+  "@exportDescription": {},
+  "songsAlbumsArtists": "பாடல்கள், ஆல்பங்கள் மற்றும் கலைஞர்கள்",
+  "@songsAlbumsArtists": {},
+  "librarySettings": "நூலக அமைப்புகள்",
+  "@librarySettings": {},
+  "dataExportedTo": "தரவு ஏற்றுமதி:\n {path}",
+  "@dataExportedTo": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "dataExportFailed": "தரவு ஏற்றுமதி தோல்வியடைந்தது!",
+  "@dataExportFailed": {},
+  "yourPlaylists": "உங்கள் பிளேலிச்ட்கள்",
+  "@yourPlaylists": {},
+  "systemSettings": "கணினி அமைப்புகள்",
+  "@systemSettings": {},
+  "batteryExplanation": "ஆண்ட்ராய்டு 12 இல் தொடங்கி, பேட்டரி தேர்வுமுறை ஆடியோ கவனத்தை இழந்த பிறகு அறிவிப்புடன் பிழையை ஏற்படுத்துகிறது, எடுத்துக்காட்டாக அழைப்பைப் பெறும்போது. மக்கிற்கான தேர்வுமுறையை முடக்குவது இந்த சிக்கலை தீர்க்கிறது.",
+  "@batteryExplanation": {},
+  "disabledBattery": "பேட்டரி தேர்வுமுறை முடக்கப்பட்டுள்ளது.",
+  "@disabledBattery": {},
+  "manageExternalExplanation": "இந்த அனுமதியை வழங்குவது நூலக ச்கேன்களின் வேகத்தை கணிசமாக மேம்படுத்தலாம். இது பயன்பாட்டின் நடத்தையை மாற்றாது.",
+  "@manageExternalExplanation": {},
+  "grantManagePermission": "எல்லா கோப்புகளையும் நிர்வகிக்க இசைவு வழங்கவும்.",
+  "@grantManagePermission": {},
+  "managePermissionSubtitle": "இசைவு திரும்பப் பெறுவது பயன்பாட்டின் மறுதொடக்கத்தை ஏற்படுத்தும்.",
+  "@managePermissionSubtitle": {},
+  "favorites": "பிடித்தவை",
+  "@favorites": {},
+  "favoritesDesc": "நீங்கள் விரும்பும் அனைத்து பாடல்களும் உள்ளன.",
+  "@favoritesDesc": {},
+  "newlyAdded": "புதிதாக சேர்க்கப்பட்டது",
+  "@newlyAdded": {},
+  "newlyAddedDesc": "கடைசியாக சேர்க்கப்பட்ட 100 பாடல்கள் உள்ளன.",
+  "@newlyAddedDesc": {},
+  "back": "பின்",
+  "@back": {},
+  "next": "அடுத்தது",
+  "@next": {},
+  "finish": "முடிக்க",
+  "@finish": {},
+  "errorReadData": "தரவு கோப்பைப் படிப்பதில் பிழை.",
+  "@errorReadData": {},
+  "createSmartlists": "அறிவுள்ள பட்டியல்களை உருவாக்கவும்",
+  "@createSmartlists": {},
+  "createSmartlistsDesc": "உங்கள் கேட்கும் அனுபவத்தை மேம்படுத்த பரிந்துரைக்கப்பட்ட ச்மார்ட்லிச்ட்களை உருவாக்கவும். இந்த பட்டியல்களை பின்னர் தனிப்பயனாக்கலாம்.",
+  "@createSmartlistsDesc": {},
+  "create": "உருவாக்கு",
+  "@create": {},
+  "created": "உருவாக்கப்பட்டது",
+  "@created": {}
+}
