@@ -10,6 +10,7 @@ import '../../constants.dart';
 import '../../domain/entities/song.dart';
 import '../datasources/drift_database.dart';
 import 'default_values.dart';
+import 'synced_lyrics_model.dart';
 
 class SongModel extends Song {
   const SongModel({
@@ -31,6 +32,8 @@ class SongModel extends Song {
     required DateTime timeAdded,
     required this.lastModified,
     int? year,
+    String? lyrics,
+    SyncedLyricsModel? syncedLyrics,
   }) : super(
           album: album,
           albumId: albumId,
@@ -49,6 +52,8 @@ class SongModel extends Song {
           playCount: playCount,
           timeAdded: timeAdded,
           year: year,
+          lyrics: lyrics,
+          syncedLyrics: syncedLyrics,
         );
 
   factory SongModel.fromDrift(DriftSong driftSong) {
@@ -74,6 +79,8 @@ class SongModel extends Song {
       timeAdded: driftSong.timeAdded,
       lastModified: driftSong.lastModified,
       year: driftSong.year,
+      lyrics: driftSong.lyrics,
+      syncedLyrics: SyncedLyricsModel.fromJson(driftSong.syncedLyrics),
     );
   }
 
@@ -84,6 +91,7 @@ class SongModel extends Song {
     Color? color,
     required int albumId,
     required DateTime lastModified,
+    SyncedLyricsModel? syncedLyrics,
   }) {
     return SongModel(
       title: songData.title ?? p.basenameWithoutExtension(path),
@@ -106,6 +114,8 @@ class SongModel extends Song {
       year: songData.year,
       timeAdded: DateTime.fromMillisecondsSinceEpoch(0),
       lastModified: lastModified,
+      lyrics: syncedLyrics != null ? null : songData.lyrics,
+      syncedLyrics: syncedLyrics,
     );
   }
 
@@ -135,6 +145,8 @@ class SongModel extends Song {
     DateTime? timeAdded,
     DateTime? lastModified,
     int? year,
+    String? lyrics,
+    SyncedLyricsModel? syncedLyrics,
   }) =>
       SongModel(
         album: album ?? this.album,
@@ -155,6 +167,8 @@ class SongModel extends Song {
         timeAdded: timeAdded ?? this.timeAdded,
         lastModified: lastModified ?? this.lastModified,
         year: year ?? this.year,
+        lyrics: lyrics ?? this.lyrics,
+        syncedLyrics: syncedLyrics ?? this.syncedLyrics as SyncedLyricsModel?,
       );
 
   SongsCompanion toSongsCompanion() => SongsCompanion(
@@ -176,6 +190,8 @@ class SongModel extends Song {
         playCount: Value(playCount),
         timeAdded: Value(timeAdded),
         lastModified: Value(lastModified),
+        lyrics: Value(lyrics),
+        syncedLyrics: Value((syncedLyrics as SyncedLyricsModel?)?.toJson()),
       );
 
   SongsCompanion toDriftInsert() => SongsCompanion(
@@ -192,6 +208,8 @@ class SongModel extends Song {
         year: Value(year),
         present: const Value(true),
         lastModified: Value(lastModified),
+        lyrics: Value(lyrics),
+        syncedLyrics: Value((syncedLyrics as SyncedLyricsModel?)?.toJson()),
       );
 
   MediaItem toMediaItem() {
