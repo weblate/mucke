@@ -1,11 +1,14 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:get_it/get_it.dart';
 
 import '../../domain/entities/queue_item.dart';
 import '../state/audio_store.dart';
 import 'album_art.dart';
+import 'lyrics_view_blurred.dart';
+import 'synced_lyrics_view_blurred.dart';
 
 class AlbumArtSwipe extends StatefulWidget {
   const AlbumArtSwipe({Key? key}) : super(key: key);
@@ -81,11 +84,35 @@ class _AlbumArtSwipeState extends State<AlbumArtSwipe> {
       controller: controller,
       clipBehavior: Clip.none,
       itemBuilder: (_, index) {
-        return Center(
-          child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 0.0),
-            child: AlbumArt(song: _queue[index].song),
-          ),
+        final song = _queue[index].song;
+        return Observer(
+          builder: (BuildContext context) {
+            final bool showLyrics = audioStore.showLyrics;
+            return Center(
+              child: Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 0.0),
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(2.0),
+                  child: Stack(
+                    fit: StackFit.loose,
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.all(0.5),
+                        child: AlbumArt(song: song),
+                      ),
+                      if (song.hasPlainLyrics && showLyrics)
+                        song.hasSyncedLyrics
+                            ? SyncedLyricsViewBlurred(
+                                key: ValueKey('SYNCED_LYRICS_${song.path}'),
+                                song: song,
+                              )
+                            : LyricsViewBlurred(song: song),
+                    ],
+                  ),
+                ),
+              ),
+            );
+          },
         );
       },
       onPageChanged: _conditionalSeek,
